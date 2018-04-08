@@ -75,7 +75,7 @@ fi
 if [ $UPDATEONSTART -eq 0 ]; then
 	arkmanager start -noautoupdate
 else
-	arkmanager start
+	arkmanager start $1
 fi
 
 
